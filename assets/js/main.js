@@ -147,7 +147,7 @@ const darkTheme = 'dark-theme'
 const iconTheme = 'uil-sun'
 
 // Previously selected topic (if user selected)
-const selectedTheme = localStoragegetItem('selected-theme')
+const selectedTheme = localStorage.getItem('selected-theme')
 const selectedIcon = localStorage.getItem('selected-icon')
 
 // We obtain the current theme that the interface has by validating the dark-theme class
@@ -169,6 +169,5 @@ themeButton.addEventListener('click', () => {
     // We save the theme and the current icon that the user chose
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
-})
-
+}) 
 
