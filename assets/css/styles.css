@@ -94,7 +94,7 @@ body.dark-theme{
 
 }
  .change-theme{
-   font-size: 1.25rem;
+   font-size: 1.75rem;
    color: var(--first-color);
    margin-right: var(--mb-1);
    cursor: pointer;
@@ -1089,5 +1089,18 @@ img {
   }
   
 
+  
+}
+
+.download-cv{
+  color: var(--first-color);
+}
+
+.download-cv:hover{
+  color: var(--first-color-alt);
+}
+
+.submit-msg{
+  color: #61b752;
   
 }
