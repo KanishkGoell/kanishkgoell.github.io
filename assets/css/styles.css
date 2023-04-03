@@ -655,6 +655,7 @@ img {
 .swiper-portfolio-icon{
   font-size: 2rem;
   color: var(--first-color);
+  margin-bottom: 20rem;
 
 }
 .swiper-button-next{
@@ -845,7 +846,9 @@ img {
     font-size: var(--normal-font-size);
   }
   
+  
 }
+
 
 
 /* For medium devices */
